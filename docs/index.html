@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>テストフォーム（Win7 IE11バグ確認用）</title>
+<link rel="stylesheet" href="css/styletest.css">
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="js/focustest.js"></script>
+</head>
+
+<body>
+<header>
+    <h1>テストフォーム（Win7 IE11バグ確認用）</h1>
+    <p>※Windows7のIE11でご覧ください。</p>
+</header>
+
+<h2>デモ</h2>
+<div id="wrapper">
+
+        <form id="form" method="post" action="./">
+            <dl>
+                <dt>会社名</dt>
+                <dd>
+                    <input id="company" type="text" name="company" value="" />
+                </dd>
+                <dt>性別</dt>
+                <dd>
+                    <label><input type="radio" name="sex" value="male" checked="checked" />男性</label>
+                    <label><input type="radio" name="sex" value="female" />女性</label>
+                </dd>
+                <dt>名前</dt>
+                <dd>
+                    <input id="name" type="text" name="name" value="" />
+                </dd>
+                <dt>メールアドレス</dt>
+                <dd>
+                    <input type="email" name="mailaddress" value="" />
+                </dd>
+            </dl>
+            <input type="button" name="submit" value="送信" />
+            <p>※デモのフォームなので、実際に送信はしません</p>
+        </form>
+
+</div>
+
+<footer>
+    <h2>備考</h2>
+    <p>検索してもこの現象に関する情報が見付からずに困り果て、最終的に冒頭で記述した対処法で現象を回避しました。</p>
+    <h3>追記</h3>
+    <p>IEはやっぱりIE。</p>
+</footer>
+
+</body>
+</html>
