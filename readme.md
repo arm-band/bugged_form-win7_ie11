@@ -21,11 +21,11 @@
 
 <figure>
     <img src="./img/ss1.jpg" alt="フォーカスの当たったテキストボックス（正常な場合）">
-    <figcaption>フォーカスの当たったテキストボックス（正常な場合）</figcaption>
+    <figcaption>図１：フォーカスの当たったテキストボックス（正常な場合）</figcaption>
 </figure>
 <figure>
     <img src="./img/ss2.jpg" alt="フォーカスの当たったテキストボックス（問題の現象発生時）">
-    <figcaption>フォーカスの当たったテキストボックス（問題の現象発生時）</figcaption>
+    <figcaption>図２：フォーカスの当たったテキストボックス（問題の現象発生時）</figcaption>
 </figure>
 
 ## 対処
